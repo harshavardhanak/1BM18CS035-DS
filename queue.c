@@ -40,7 +40,7 @@ void deque(int q[100],int *r,int *f)
  printf("Queue is empty");
  else
  printf("Deleted element =%d\n",q[*f]);
- *f++;
+ *f=*f+1;
 }
 void display(int q[100],int r,int f)
 {
